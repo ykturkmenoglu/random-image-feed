@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Playwrite+NZ&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Playwrite NZ', sans-serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #231942;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.container img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+}
